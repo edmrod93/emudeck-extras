@@ -17,7 +17,7 @@ Replacement **AppImage files** for emulators or applications that are no longer 
 **[➡️ Browse AppImages Release](https://github.com/edmrod93/emudeck-extras/releases#release-appimages)**
 Download individual AppImages from the release assets.
 
-**[⬇️ Download All AppImages (.zip)](https://github.com/edmrod93/emudeck-extras/archive/refs/tags/AppImages.zip)**
+**[⬇️ Download All AppImages (.zip)](https://github.com/edmrod93/emudeck-extras/archive/refs/tags/appimages.zip)**
 Download the entire AppImages release as a ZIP archive.
 
 ### Installation
