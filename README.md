@@ -84,7 +84,7 @@ Emulation/bios/
 
 | Package      | Location                   | Download                                                                                                                                                                          |
 | ------------ | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🧩 AppImages | `/home/deck/Applications/` | **[Release](https://github.com/edmrod93/emudeck-extras/releases#release-appimages)** · **[Full ZIP](https://github.com/edmrod93/emudeck-extras/archive/refs/tags/AppImages.zip)** |
+| 🧩 AppImages | `/home/deck/Applications/` | **[Release](https://github.com/edmrod93/emudeck-extras/releases#release-appimages)** · **[Full ZIP](https://github.com/edmrod93/emudeck-extras/archive/refs/tags/appimages.zip)** |
 | 💾 BIOS      | `Emulation/bios/`          | **[Release](https://github.com/edmrod93/emudeck-extras/releases#release-BIOS)** · **[Full ZIP](https://github.com/edmrod93/emudeck-extras/archive/refs/tags/BIOS.zip)**           |
 
 ---
