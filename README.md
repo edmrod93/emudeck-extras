@@ -2,7 +2,7 @@
 
 A collection of extra files for **EmuDeck**, including a BIOS pack and AppImages for emulators or applications that are no longer included with EmuDeck.
 
-> **SteamOS focused**
+> **SteamOS / Steam Deck focused**
 
 ---
 
@@ -12,7 +12,15 @@ A collection of extra files for **EmuDeck**, including a BIOS pack and AppImages
 
 Replacement **AppImage files** for emulators or applications that are no longer included or easily available through EmuDeck.
 
-**Installation:**
+### 📥 Downloads
+
+**[➡️ Browse AppImages Release](https://github.com/edmrod93/emudeck-extras/releases#release-appimages)**
+Download individual AppImages from the release assets.
+
+**[⬇️ Download All AppImages (.zip)](https://github.com/edmrod93/emudeck-extras/archive/refs/tags/AppImages.zip)**
+Download the entire AppImages release as a ZIP archive.
+
+### Installation
 
 1. Download the AppImage you need from the **AppImages release**.
 2. Switch to **Desktop Mode**.
@@ -23,11 +31,9 @@ Replacement **AppImage files** for emulators or applications that are no longer 
 ```
 
 4. Make sure the AppImage is **executable**.
-5. Do **not** extract the AppImage.
-6. Open **EmuDeck**.
+5. Do **not** extract the AppImage itself.
+6. Launch **EmuDeck**.
 7. **Reset the corresponding emulator** so EmuDeck recreates its configuration using the replacement AppImage.
-
-➡️ **Go to Releases → AppImages** to download the available files.
 
 ---
 
@@ -35,9 +41,17 @@ Replacement **AppImage files** for emulators or applications that are no longer 
 
 A pre-organized **BIOS pack** designed to be placed directly into your EmuDeck BIOS directory.
 
-**Installation:**
+### 📥 Downloads
 
-1. Download the BIOS pack from the **BIOS release**.
+**[➡️ Browse BIOS Release](https://github.com/edmrod93/emudeck-extras/releases#release-BIOS)**
+Download individual BIOS files and archives from the release assets.
+
+**[⬇️ Download Complete BIOS Pack (.zip)](https://github.com/edmrod93/emudeck-extras/archive/refs/tags/BIOS.zip)**
+Download the entire BIOS release as a ZIP archive.
+
+### Installation
+
+1. Download the **BIOS pack**.
 2. Extract the downloaded archive.
 3. Locate your EmuDeck BIOS folder:
 
@@ -46,31 +60,32 @@ Emulation/bios/
 ```
 
 4. Back up your existing BIOS folder if needed.
-5. Copy the downloaded files into `Emulation/bios/`.
+5. Copy the downloaded BIOS files into `Emulation/bios/`.
 6. Choose **Replace / Overwrite** when prompted.
-7. Open EmuDeck and use the **BIOS Checker** to verify your files.
+7. Open **EmuDeck** and use the **BIOS Checker** to verify your files.
 
-Make sure you do **not** accidentally create an extra nested folder such as:
+> **Important:** Do not accidentally create an extra nested BIOS folder.
+
+Incorrect:
 
 ```text
 Emulation/bios/bios/
 ```
 
-➡️ **Go to Releases → BIOS** to download the BIOS files.
+Correct:
+
+```text
+Emulation/bios/
+```
 
 ---
 
 ## 📂 Quick Reference
 
-```text
-EmuDeck
-│
-├── BIOS
-│   └── Emulation/bios/
-│
-└── AppImages
-    └── /home/deck/Applications/
-```
+| Package      | Location                   | Download                                                                                                                                                                          |
+| ------------ | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🧩 AppImages | `/home/deck/Applications/` | **[Release](https://github.com/edmrod93/emudeck-extras/releases#release-appimages)** · **[Full ZIP](https://github.com/edmrod93/emudeck-extras/archive/refs/tags/AppImages.zip)** |
+| 💾 BIOS      | `Emulation/bios/`          | **[Release](https://github.com/edmrod93/emudeck-extras/releases#release-BIOS)** · **[Full ZIP](https://github.com/edmrod93/emudeck-extras/archive/refs/tags/BIOS.zip)**           |
 
 ---
 
